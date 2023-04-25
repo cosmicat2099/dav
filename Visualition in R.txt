@@ -1,0 +1,88 @@
+# Create some sample data
+x <- seq(0, 10, length.out = 100)
+y <- sin(x)
+
+# Create a plot of the data
+plot(x, y, type = "l")
+
+# Add axis labels and a title
+xlabel <- "X axis label"
+ylabel <- "Y axis label"
+title <- "Title of the plot"
+title(main = title, xlab = xlabel, ylab = ylabel)
+
+
+
+
+# Create some sample data
+x <- c("A", "B", "C", "D")
+y <- c(10, 15, 20, 25)
+
+# Create a bar plot of the data
+barplot(y, names.arg = x)
+
+# Add axis labels and a title
+xlabel <- "Categories"
+ylabel <- "Values"
+title <- "Title of the plot"
+title(main = title, xlab = xlabel, ylab = ylabel)
+
+
+
+
+# Create some sample data
+data <- rnorm(1000, mean = 0, sd = 1)
+
+# Create a histogram of the data
+hist(data, breaks = 30)
+
+# Add axis labels and a title
+xlabel <- "Values"
+ylabel <- "Frequency"
+title <- "Title of the plot"
+title(main = title, xlab = xlabel, ylab = ylabel)
+
+
+
+
+# Create some sample data
+data <- rnorm(100, mean = 0, sd = 1)
+
+# Create a box plot of the data
+boxplot(data)
+
+# Add axis labels and a title
+xlabel <- "Data"
+title <- "Title of the plot"
+title(main = title, xlab = xlabel)
+
+
+
+
+# Create some sample data
+sizes <- c(30, 20, 50)
+labels <- c("A", "B", "C")
+
+# Create a pie chart of the data
+pie(sizes, labels = labels)
+
+# Add a title
+title <- "Title of the plot"
+title(main = title)
+
+
+
+
+# Create some sample data
+x <- rnorm(100, mean = 0, sd = 1)
+y <- rnorm(100, mean = 0, sd = 1)
+
+# Create a scatter plot of the data
+plot(x, y)
+
+# Add axis labels and a title
+xlabel <- "X axis label"
+ylabel <- "Y axis label"
+title <- "Title of the plot"
+title(main = title, xlab = xlabel, ylab = ylabel)
+
